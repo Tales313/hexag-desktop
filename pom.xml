@@ -6,7 +6,7 @@
 
     <groupId>desktop</groupId>
     <artifactId>desktop</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>12</maven.compiler.source>
@@ -21,6 +21,16 @@
             <version>0.1.2-SNAPSHOT</version>
             <scope>system</scope>
             <systemPath>/home/tales/IdeaProjects/sistema/classes/artifacts/sistema/sistema.jar
+            </systemPath>
+        </dependency>
+
+        <!-- Conta Serviços -->
+        <dependency>
+            <groupId>conta.servicos</groupId>
+            <artifactId>conta.servicos</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>/home/tales/IdeaProjects/servicos/out/artifacts/servico/servico.jar
             </systemPath>
         </dependency>
 
@@ -50,6 +60,20 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
             <version>5.1.6.RELEASE</version>
+        </dependency>
+
+        <!-- Spring Jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.1.6.RELEASE</version>
+        </dependency>
+
+        <!-- hsqldb -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.4.1</version>
         </dependency>
 
     </dependencies>
