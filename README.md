@@ -11,4 +11,4 @@ Para fazer o build da aplicação é necessário seguir os passos abaixo:
 * Clonar os repositórios de [core](https://github.com/Tales313/hexag-core), [desktop](https://github.com/Tales313/hexag-desktop) e [servicos](https://github.com/Tales313/hexag-servicos).
 * Fazer o build dos projetos de core e servicos, gerando um arquivo .jar de cada um.
 * Alterar no pom.xml do projeto desktop, o caminho para o arquivo .jar dos outros 2 projetos.
-* Fazer o build do projeto desktop e rodá-lo (para alterar o ambiente (dev ou hml) é preciso escolher no arquivo AdaptadoraJavaFx a classe de Build).
+* Rodar a classe AdaptadoraJavaFx, escolhendo no método init() qual classe de Build será utilizada (dev ou hml).
